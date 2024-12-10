@@ -19,6 +19,8 @@ ros2 run ros2_aruco aruco_node_camera
 ```bash
 ros2 run ros2_aruco aruco_node
 ```
+**Note:** You should **not** close the terminal running the Gazebo simulation (`gazebo_aruco.launch.py`). The simulation must continue running while you launch one of the above nodes in a different terminal.
+
 ## How It Works
 
 - The robot starts in the center of the markers placed in a circle.
@@ -27,8 +29,15 @@ ros2 run ros2_aruco aruco_node
 
 ## Important Notes
 
-- When you run and stop any Python script (e.g., using `ctrl + c`), the node will stop, but the action will continue running.
-  - For example, if you kill the `aruco_node` (which controls the robot), the robot will keep rotating in the simulation.
-  - Similarly, if you stop the camera node, the camera will continue running even after the node is killed.
+- When you run and stop any Python script (e.g., using `ctrl + c`), the node stops, but the action continues. For example:
+  - If you kill the `aruco_node` (which controls the robot), the robot will keep rotating in the simulation. To stop this, run the following command in a separate terminal:
+    ```bash
+    ros2 topic pub /cmd_vel geometry_msgs/Twist "{angular: {z: 0.0}}"
+    ```
+  - Similarly, if you stop the camera node, the camera will continue moving. To stop the camera, run the following command in a separate terminal:
+    ```bash
+    ros2 topic pub /camera_joint_controller/commands std_msgs/Float64MultiArray "{data: [0.0]}"
+    ```
+
 
 
