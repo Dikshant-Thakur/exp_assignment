@@ -1,0 +1,23 @@
+[0.880s] Invoking command in '/root/ros2_ws_diki_new/src/vision_opencv/opencv_tests': AMENT_PREFIX_PATH=/root/ros2_ws_diki_new/install/cv_bridge CMAKE_PREFIX_PATH=/root/ros2_ws_diki_new/install/cv_bridge LD_LIBRARY_PATH=/root/ros2_ws_diki_new/install/cv_bridge/lib PYTHONPATH=/root/ros2_ws_diki_new/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws_diki_new/install/opencv_tests/lib/python3.8/site-packages:/root/ros2_ws_diki_new/install/cv_bridge/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /root/ros2_ws_diki_new/build/opencv_tests/build install --record /root/ros2_ws_diki_new/build/opencv_tests/install.log --single-version-externally-managed install_data
+[1.204s] running egg_info
+[1.205s] writing ../../../build/opencv_tests/opencv_tests.egg-info/PKG-INFO
+[1.206s] writing dependency_links to ../../../build/opencv_tests/opencv_tests.egg-info/dependency_links.txt
+[1.207s] writing entry points to ../../../build/opencv_tests/opencv_tests.egg-info/entry_points.txt
+[1.207s] writing requirements to ../../../build/opencv_tests/opencv_tests.egg-info/requires.txt
+[1.207s] writing top-level names to ../../../build/opencv_tests/opencv_tests.egg-info/top_level.txt
+[1.274s] reading manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[1.276s] writing manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[1.276s] running build
+[1.276s] running build_py
+[1.277s] running install
+[1.279s] running install_lib
+[1.282s] running install_data
+[1.282s] running install_egg_info
+[1.285s] removing '/root/ros2_ws_diki_new/install/opencv_tests/lib/python3.8/site-packages/opencv_tests-3.0.7-py3.8.egg-info' (and everything under it)
+[1.286s] Copying ../../../build/opencv_tests/opencv_tests.egg-info to /root/ros2_ws_diki_new/install/opencv_tests/lib/python3.8/site-packages/opencv_tests-3.0.7-py3.8.egg-info
+[1.288s] running install_scripts
+[1.319s] Installing broadcast script to /root/ros2_ws_diki_new/install/opencv_tests/lib/opencv_tests
+[1.319s] Installing rosfacedetect script to /root/ros2_ws_diki_new/install/opencv_tests/lib/opencv_tests
+[1.319s] Installing source script to /root/ros2_ws_diki_new/install/opencv_tests/lib/opencv_tests
+[1.320s] writing list of installed files to '/root/ros2_ws_diki_new/build/opencv_tests/install.log'
+[1.356s] Invoked command in '/root/ros2_ws_diki_new/src/vision_opencv/opencv_tests' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws_diki_new/install/cv_bridge CMAKE_PREFIX_PATH=/root/ros2_ws_diki_new/install/cv_bridge LD_LIBRARY_PATH=/root/ros2_ws_diki_new/install/cv_bridge/lib PYTHONPATH=/root/ros2_ws_diki_new/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws_diki_new/install/opencv_tests/lib/python3.8/site-packages:/root/ros2_ws_diki_new/install/cv_bridge/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /root/ros2_ws_diki_new/build/opencv_tests/build install --record /root/ros2_ws_diki_new/build/opencv_tests/install.log --single-version-externally-managed install_data

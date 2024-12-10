@@ -1,0 +1,28 @@
+[1.809s] Invoking command in '/root/ros2_ws_diki_new/src/ros2_aruco/ros2_aruco': PYTHONPATH=/root/ros2_ws_diki_new/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws_diki_new/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2_aruco build --build-base /root/ros2_ws_diki_new/build/ros2_aruco/build install --record /root/ros2_ws_diki_new/build/ros2_aruco/install.log --install-scripts $base/lib/ros2_aruco --single-version-externally-managed install_data
+[2.185s] running egg_info
+[2.185s] writing ../../../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO
+[2.186s] writing dependency_links to ../../../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt
+[2.186s] writing entry points to ../../../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt
+[2.186s] writing requirements to ../../../build/ros2_aruco/ros2_aruco.egg-info/requires.txt
+[2.186s] writing top-level names to ../../../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt
+[2.245s] reading manifest file '../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[2.247s] writing manifest file '../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[2.247s] running build
+[2.247s] running build_py
+[2.248s] copying ros2_aruco/aruco_node_camera.py -> /root/ros2_ws_diki_new/build/ros2_aruco/build/lib/ros2_aruco
+[2.248s] running install
+[2.249s] running install_lib
+[2.250s] copying /root/ros2_ws_diki_new/build/ros2_aruco/build/lib/ros2_aruco/aruco_node_camera.py -> /root/ros2_ws_diki_new/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco
+[2.251s] byte-compiling /root/ros2_ws_diki_new/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco/aruco_node_camera.py to aruco_node_camera.cpython-38.pyc
+[2.256s] running install_data
+[2.256s] running install_egg_info
+[2.260s] removing '/root/ros2_ws_diki_new/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco-0.1.0-py3.8.egg-info' (and everything under it)
+[2.261s] Copying ../../../build/ros2_aruco/ros2_aruco.egg-info to /root/ros2_ws_diki_new/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco-0.1.0-py3.8.egg-info
+[2.263s] running install_scripts
+[2.290s] Installing aruco_generate_marker script to /root/ros2_ws_diki_new/install/ros2_aruco/lib/ros2_aruco
+[2.290s] Installing aruco_node script to /root/ros2_ws_diki_new/install/ros2_aruco/lib/ros2_aruco
+[2.291s] Installing aruco_node_camera script to /root/ros2_ws_diki_new/install/ros2_aruco/lib/ros2_aruco
+[2.291s] Installing aruco_node_explaination script to /root/ros2_ws_diki_new/install/ros2_aruco/lib/ros2_aruco
+[2.292s] Installing aruco_node_original script to /root/ros2_ws_diki_new/install/ros2_aruco/lib/ros2_aruco
+[2.292s] writing list of installed files to '/root/ros2_ws_diki_new/build/ros2_aruco/install.log'
+[2.326s] Invoked command in '/root/ros2_ws_diki_new/src/ros2_aruco/ros2_aruco' returned '0': PYTHONPATH=/root/ros2_ws_diki_new/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws_diki_new/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2_aruco build --build-base /root/ros2_ws_diki_new/build/ros2_aruco/build install --record /root/ros2_ws_diki_new/build/ros2_aruco/install.log --install-scripts $base/lib/ros2_aruco --single-version-externally-managed install_data

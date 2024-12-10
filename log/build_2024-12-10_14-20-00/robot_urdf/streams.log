@@ -1,0 +1,41 @@
+[0.232s] Invoking command in '/root/ros2_ws_diki_new/build/robot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws_diki_new/install/ros2_aruco:/root/ros2_ws_diki_new/install/python:/root/ros2_ws_diki_new/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /root/ros2_ws_diki_new/build/robot_urdf -- -j12 -l12
+[0.430s] Invoked command in '/root/ros2_ws_diki_new/build/robot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws_diki_new/install/ros2_aruco:/root/ros2_ws_diki_new/install/python:/root/ros2_ws_diki_new/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /root/ros2_ws_diki_new/build/robot_urdf -- -j12 -l12
+[0.477s] Invoking command in '/root/ros2_ws_diki_new/build/robot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws_diki_new/install/ros2_aruco:/root/ros2_ws_diki_new/install/python:/root/ros2_ws_diki_new/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /root/ros2_ws_diki_new/build/robot_urdf
+[0.490s] -- Install configuration: ""
+[0.490s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//launch
+[0.491s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//launch/__pycache__
+[0.491s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//launch/__pycache__/gazebo.launch.cpython-38.pyc
+[0.491s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//launch/__pycache__/gazebo_arm.launch.cpython-38.pyc
+[0.491s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//launch/gazebo.launch.py
+[0.492s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//launch/gazebo_arm.launch.py
+[0.492s] -- Installing: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//launch/gazebo_aruco.launch.py
+[0.492s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//urdf
+[0.492s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//urdf/m2wr_arm2.xacro
+[0.493s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//urdf/robot4_fixed.xacro
+[0.493s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//urdf/robot4.xacro
+[0.494s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//urdf/materials.xacro
+[0.495s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//urdf/robot4.gazebo
+[0.496s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//urdf/m2wr_arm2.gazebo
+[0.497s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//config
+[0.497s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//config/config_camera.yaml
+[0.497s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//config/rviz.rviz
+[0.498s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//config/config.yaml
+[0.498s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//worlds
+[0.498s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//worlds/World_2.world
+[0.498s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf//worlds/aruco_test.world
+[0.499s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/ament_index/resource_index/package_run_dependencies/robot_urdf
+[0.499s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/ament_index/resource_index/parent_prefix_path/robot_urdf
+[0.499s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf/environment/ament_prefix_path.sh
+[0.499s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf/environment/ament_prefix_path.dsv
+[0.500s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf/environment/path.sh
+[0.500s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf/environment/path.dsv
+[0.500s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf/local_setup.bash
+[0.500s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf/local_setup.sh
+[0.500s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf/local_setup.zsh
+[0.501s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf/local_setup.dsv
+[0.501s] -- Installing: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf/package.dsv
+[0.501s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/ament_index/resource_index/packages/robot_urdf
+[0.502s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf/cmake/robot_urdfConfig.cmake
+[0.502s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf/cmake/robot_urdfConfig-version.cmake
+[0.502s] -- Up-to-date: /root/ros2_ws_diki_new/install/robot_urdf/share/robot_urdf/package.xml
+[0.547s] Invoked command in '/root/ros2_ws_diki_new/build/robot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws_diki_new/install/ros2_aruco:/root/ros2_ws_diki_new/install/python:/root/ros2_ws_diki_new/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /root/ros2_ws_diki_new/build/robot_urdf

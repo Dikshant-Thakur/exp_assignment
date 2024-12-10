@@ -1,0 +1,45 @@
+[0.054s] Invoking command in '/root/ros2_ws_diki_new/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws_diki_new/install/ros2_aruco:/root/ros2_ws_diki_new/install/python:/root/ros2_ws_diki_new/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /root/ros2_ws_diki_new/build/cv_bridge -- -j12 -l12
+[0.458s] [ 12%] Built target gtest
+[0.458s] [ 25%] Built target gtest_main
+[0.458s] [ 43%] Built target cv_bridge
+[0.458s] [ 81%] Built target cv_bridge-utest
+[0.458s] [100%] Built target cv_bridge_boost
+[0.464s] Invoked command in '/root/ros2_ws_diki_new/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws_diki_new/install/ros2_aruco:/root/ros2_ws_diki_new/install/python:/root/ros2_ws_diki_new/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /root/ros2_ws_diki_new/build/cv_bridge -- -j12 -l12
+[0.501s] Invoking command in '/root/ros2_ws_diki_new/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws_diki_new/install/ros2_aruco:/root/ros2_ws_diki_new/install/python:/root/ros2_ws_diki_new/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /root/ros2_ws_diki_new/build/cv_bridge
+[0.512s] -- Install configuration: ""
+[0.512s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[0.512s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[0.512s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/lib/python3.8/site-packages/cv_bridge
+[0.512s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/core.py
+[0.512s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/__init__.py
+[0.547s] Listing '/root/ros2_ws_diki_new/install/cv_bridge/lib/python3.8/site-packages/cv_bridge'...
+[0.547s] Listing '/root/ros2_ws_diki_new/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/boost'...
+[0.554s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/environment/library_path.sh
+[0.557s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/environment/library_path.dsv
+[0.558s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/include/cv_bridge
+[0.559s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/include/cv_bridge/rgb_colors.h
+[0.559s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/include/cv_bridge/cv_bridge.h
+[0.559s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/lib/libcv_bridge.so
+[0.559s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[0.559s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[0.559s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[0.559s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[0.559s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/environment/path.sh
+[0.559s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[0.560s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/local_setup.bash
+[0.560s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/local_setup.sh
+[0.560s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[0.561s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[0.561s] -- Installing: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/package.dsv
+[0.561s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[0.562s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[0.562s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.562s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.562s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[0.563s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[0.563s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[0.563s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/share/cv_bridge/package.xml
+[0.563s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/lib/libcv_bridge.so
+[0.564s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/include/cv_bridge/cv_bridge_export.h
+[0.564s] -- Up-to-date: /root/ros2_ws_diki_new/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/boost/cv_bridge_boost.so
+[0.583s] Invoked command in '/root/ros2_ws_diki_new/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws_diki_new/install/ros2_aruco:/root/ros2_ws_diki_new/install/python:/root/ros2_ws_diki_new/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /root/ros2_ws_diki_new/build/cv_bridge

@@ -1,0 +1,7 @@
+[console_scripts]
+aruco_generate_marker = ros2_aruco.aruco_generate_marker:main
+aruco_node = ros2_aruco.aruco_node:main
+aruco_node_camera = ros2_aruco.aruco_node_camera:main
+aruco_node_explaination = ros2_aruco.aruco_node_explaination:main
+aruco_node_original = ros2_aruco.aruco_node_original:main
+

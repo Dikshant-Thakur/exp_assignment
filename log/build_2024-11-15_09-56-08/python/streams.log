@@ -1,0 +1,33 @@
+[1.313s] Invoking command in '/root/ros2_ws_diki_new/src/python': PYTHONPATH=/root/ros2_ws_diki_new/build/python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws_diki_new/install/python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python build --build-base /root/ros2_ws_diki_new/build/python/build install --record /root/ros2_ws_diki_new/build/python/install.log --install-scripts $base/lib/python --single-version-externally-managed install_data
+[1.599s] running egg_info
+[1.600s] creating ../../build/python/python.egg-info
+[1.600s] writing ../../build/python/python.egg-info/PKG-INFO
+[1.601s] writing dependency_links to ../../build/python/python.egg-info/dependency_links.txt
+[1.601s] writing entry points to ../../build/python/python.egg-info/entry_points.txt
+[1.601s] writing requirements to ../../build/python/python.egg-info/requires.txt
+[1.601s] writing top-level names to ../../build/python/python.egg-info/top_level.txt
+[1.603s] writing manifest file '../../build/python/python.egg-info/SOURCES.txt'
+[1.648s] reading manifest file '../../build/python/python.egg-info/SOURCES.txt'
+[1.649s] writing manifest file '../../build/python/python.egg-info/SOURCES.txt'
+[1.649s] running build
+[1.650s] running build_py
+[1.650s] creating /root/ros2_ws_diki_new/build/python/build
+[1.650s] creating /root/ros2_ws_diki_new/build/python/build/lib
+[1.650s] creating /root/ros2_ws_diki_new/build/python/build/lib/python
+[1.650s] copying python/__init__.py -> /root/ros2_ws_diki_new/build/python/build/lib/python
+[1.650s] running install
+[1.651s] running install_lib
+[1.653s] creating /root/ros2_ws_diki_new/install/python/lib/python3.8/site-packages/python
+[1.653s] copying /root/ros2_ws_diki_new/build/python/build/lib/python/__init__.py -> /root/ros2_ws_diki_new/install/python/lib/python3.8/site-packages/python
+[1.653s] byte-compiling /root/ros2_ws_diki_new/install/python/lib/python3.8/site-packages/python/__init__.py to __init__.cpython-38.pyc
+[1.655s] running install_data
+[1.655s] creating /root/ros2_ws_diki_new/install/python/share/ament_index
+[1.655s] creating /root/ros2_ws_diki_new/install/python/share/ament_index/resource_index
+[1.655s] creating /root/ros2_ws_diki_new/install/python/share/ament_index/resource_index/packages
+[1.655s] copying resource/python -> /root/ros2_ws_diki_new/install/python/share/ament_index/resource_index/packages
+[1.655s] copying package.xml -> /root/ros2_ws_diki_new/install/python/share/python
+[1.655s] running install_egg_info
+[1.658s] Copying ../../build/python/python.egg-info to /root/ros2_ws_diki_new/install/python/lib/python3.8/site-packages/python-0.0.0-py3.8.egg-info
+[1.658s] running install_scripts
+[1.685s] writing list of installed files to '/root/ros2_ws_diki_new/build/python/install.log'
+[1.719s] Invoked command in '/root/ros2_ws_diki_new/src/python' returned '0': PYTHONPATH=/root/ros2_ws_diki_new/build/python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws_diki_new/install/python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python build --build-base /root/ros2_ws_diki_new/build/python/build install --record /root/ros2_ws_diki_new/build/python/install.log --install-scripts $base/lib/python --single-version-externally-managed install_data

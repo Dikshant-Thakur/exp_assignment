@@ -1,0 +1,25 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 30
+    use_sim_time: true
+
+    camera_joint_controller:
+      type: forward_command_controller/ForwardCommandController    
+      
+    joint_broad:
+      type: joint_state_broadcaster/JointStateBroadcaster  
+    
+      
+
+camera_joint_controller:   #Defines how you control the joint
+  ros__parameters:
+    joints:
+      - camera_joint
+    interface_name: velocity
+    command_interfaces:   #Defines the specific command types the controller can send to the joint
+      - velocity
+    state_interfaces: #Defines the types of data the controller can read to understand the joint's current state
+      - position
+      - velocity
+
+
