@@ -6,7 +6,29 @@ This project demonstrates how to detect ArUco markers in a Gazebo simulation and
 
 To run the simulation and detection, use the following commands:
 
-### 1. Rotating the Camera to Find Markers (ArUco marker IDs 11 to 15)
-To use the camera to detect markers in a circle, run the following command:
+### 1. To start the Gazebo simulation:
+```bash
+ros2 launch robot_urdf gazebo_aruco.launch.py
+```
+
+### 2. For rotating the camera to find markers (ArUco marker IDs 11 to 15):
 ```bash
 ros2 run ros2_aruco aruco_node_camera
+```
+### 3. For moving the robot to find markers (ArUco marker IDs 11 to 15);
+```bash
+ros2 run ros2_aruco aruco_node
+```
+## How It Works
+
+- The robot starts in the center of the markers placed in a circle.
+- The system will rotate the robot to find the ArUco markers in a circular pattern.
+- Each time a marker is found, an image with a circle around the marker will be published on a custom topic.
+
+## Important Notes
+
+- When you run and stop any Python script (e.g., using `ctrl + c`), the node will stop, but the action will continue running.
+  - For example, if you kill the `aruco_node` (which controls the robot), the robot will keep rotating in the simulation.
+  - Similarly, if you stop the camera node, the camera will continue running even after the node is killed.
+
+
