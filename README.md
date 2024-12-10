@@ -25,7 +25,7 @@ ros2 run ros2_aruco aruco_node
 
 - The robot starts in the center of the markers placed in a circle.
 - The system will rotate the robot to find the ArUco markers in a circular pattern.
-- Each time a marker is found, an image with a circle around the marker will be published on a custom topic.
+- Each time a marker is found, an image with a circle around the marker will be published..
 
 ## Important Notes
 
