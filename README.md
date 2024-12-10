@@ -1,6 +1,7 @@
 # Robot Marker Detection with ArUco
 
 This project demonstrates how to detect ArUco markers in a Gazebo simulation and control a robot to find them in order. The markers are placed in a circle, and the robot either rotates or uses the camera to detect them one by one. The ArUco markers used are from IDs 11 to 15.
+This project uses ROS2 Foxy, so please ensure your environment is set up beforehand. 
 
 ## Requirements
 
