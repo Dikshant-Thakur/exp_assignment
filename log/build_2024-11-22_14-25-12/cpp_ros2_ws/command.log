@@ -1,4 +1,0 @@
-Invoking command in '/root/ros2_ws_diki_new/build/cpp_ros2_ws': /usr/bin/cmake --build /root/ros2_ws_diki_new/build/cpp_ros2_ws -- -j12 -l12
-Invoked command in '/root/ros2_ws_diki_new/build/cpp_ros2_ws' returned '0': /usr/bin/cmake --build /root/ros2_ws_diki_new/build/cpp_ros2_ws -- -j12 -l12
-Invoking command in '/root/ros2_ws_diki_new/build/cpp_ros2_ws': /usr/bin/cmake --install /root/ros2_ws_diki_new/build/cpp_ros2_ws
-Invoked command in '/root/ros2_ws_diki_new/build/cpp_ros2_ws' returned '0': /usr/bin/cmake --install /root/ros2_ws_diki_new/build/cpp_ros2_ws

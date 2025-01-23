@@ -1,5 +1,0 @@
-  File "/root/ros2_ws_diki_new/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco/aruco_node.py", line 136
-    self.markers_pub.publish(markers)  *%
-                                        ^
-SyntaxError: invalid syntax
-
