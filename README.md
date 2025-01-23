@@ -24,21 +24,10 @@ ros2 run ros2_aruco aruco_node
 
 ## How It Works
 
-- The robot starts in the center of the markers placed in a circle.
+- The robot starts in the centre of the markers placed in a circle.
 - The system will rotate the robot to find the ArUco markers in a circular pattern.
-- Each time a marker is found, an image with a circle around the marker will be published..
-
-## Important Notes
-
-- When you run and stop any Python script (e.g., using `ctrl + c`), the node stops, but the action continues. For example:
-  - If you kill the `aruco_node` (which controls the robot), the robot will keep rotating in the simulation. To stop this, run the following command in a separate terminal:
-    ```bash
-    ros2 topic pub /cmd_vel geometry_msgs/Twist "{angular: {z: 0.0}}"
-    ```
-  - Similarly, if you stop the camera node, the camera will continue moving. To stop the camera, run the following command in a separate terminal:
-    ```bash
-    ros2 topic pub /camera_joint_controller/commands std_msgs/Float64MultiArray "{data: [0.0]}"
-    ```
+- Then it gives you the smallest ID among all of the IDs. 
+- Then it rotates and an image with a circle around the marker will be published. 
 
 
 
